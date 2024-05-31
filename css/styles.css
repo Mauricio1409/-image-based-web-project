@@ -5,24 +5,33 @@
 body{
     background-color: rgb(206,214,240);
 }
-
-.Principal{
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
     background-color: rgb(255,255,255);
-    margin: 150px 100px;
-    border-radius: 5%;
-    height: 500px;
+    height: 70vh;
+    width: 80%;
+    margin: 125px 100px;
     padding: 30px;
+    border-radius: 15px;
 }
-
-img{
-    color: rgb(66,105,226);
-}
-.Encabezado{
+.encabezado{
     text-align: center;
+    
 }
-.Services{
-    color: rgb(116,144,233);
+.service{
+    color: rgb(116,144,233)
 }
-.Servicios1, .Servicios2{
-    display: flex
+.servicios1, .servicios2{
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.div{
+    border: 5px solid red;
+    height: 150px;
+    width: 300px;
 }
